@@ -35,10 +35,10 @@ skills = ["Markdown", "Python", "Philosophy", "Meditation"]
 # print(skill)
 
 # Try with numbers
-priorities = [1, 2, 3, 4, 5]
+# priorities = [1, 2, 3, 4, 5]
 # for priority in priorities:
 #  print("Priority level:", priority)
 
-print(f"First skill: {skills[0]}")
+# print(f"First skill: {skills[0]}")
 
-print(f"Last skill: {skills[-1]}")
+# print(f"Last skill: {skills[-1]}")
