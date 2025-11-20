@@ -1,3 +1,47 @@
+# 2025-11-19
+- **For loops** exist to help handle the querying of extensive lists.
+  - They're  used to say "for each value in a sequence, perform this action".
+  
+- They can also be used with conditional statements to check each string in a list, or to loop through letters in a string to perform validation.
+# 2025-11-18
+
+## Conditional statements and operators
+
+- Continuing with the DataCamp course today.
+
+- **Booleans** which return *true* or *false* values can be used to compare variables, data structures, and values. 
+- We can make comparisons using comparison operators - symbols that compare values.
+
+- The first way we do this is to check for *equality* - are two things equal - which is done with `==` two equals signs (one is reserved for assigning variables.)
+- To check for *inequality* we use the `! =` function - in Zed, this automatically lints to `!=`
+
+- Often, in development situations, equality functions can be used to check if the login details match the stored login credentials for an account.
+
+### Numeric comparison operators
+- `<` is used to check if one number is less than another, `>` is used to check if one number is greater than another.
+- We can combine either with `=` to check if a number is *equal to or* greater than / less than another as well.
+
+### Other comparisons
+- We can check for equality in strings, but we can also check for "greater than" in strings. Python is evaluated alphabetically, so a string that begins with a letter that appears in the alphabet later than another will return a result of "True" if asked to determine this.
+
+### Conditional statements
+- `if` this statement allows us to say "if this is True, run this code; otherwise, skip it". 
+- Conditional statements can be extended to check multiple conditions using `elif`, short for "else if".
+
+## Running the practice from DataCamp
+- I ran into a probelm when I ran the practice from DataCamp - the environment uses dummy-references that I had to write myself.
+- I realized this when I ran the code and ran into my first error indicating that the variables were not defined:
+  - `Traceback (most recent call last):
+    File "/Users/sebastianlathangue/Documents/Projects/Python Learning/Daily Practice/2025-11-18.py", line 37, in <module>
+      if pantry_stock["tomatoes"] >= ingredients_needed["tomatoes"]:
+         ^^^^^^^^^^^^
+  NameError: name 'pantry_stock' is not defined`
+- I continued to get errors, now for incorrect data types, as well as another isntance of a variable not being defined.
+- Once I'd succesfully added the correct reference data, things ran smoothly ` pantry_stock = {"tomatoes": 700}
+ingredients_needed = {"tomatoes": 900}`
+
+- This happened again when basil was added to the mix, this time I tried to update the basil in the two dictonaries before realizing I'd made another mistake and needed to just assign variables to move forward.
+
 # 2025-11-17:
 
 ## Dictionaries
