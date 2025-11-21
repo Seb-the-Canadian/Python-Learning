@@ -1,3 +1,12 @@
+# 2025-11-20
+- Continuing on **for loops** and also **ranges**
+- These can be also used for looping through **dictionaries**
+  - Can loop through just *keys* or just *values*
+  - either using `.items` or `.keys` functionality
+
+- **range** is a built-in function that is used to generate or modify values
+- it starts at one number and ends *before* the last number.
+
 # 2025-11-19
 - **For loops** exist to help handle the querying of extensive lists.
   - They're  used to say "for each value in a sequence, perform this action".
