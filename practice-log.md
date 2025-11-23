@@ -1,3 +1,4 @@
+
 # 2025-11-20
 - Continuing on **for loops** and also **ranges**
 - These can be also used for looping through **dictionaries**
@@ -7,11 +8,14 @@
 - **range** is a built-in function that is used to generate or modify values
 - it starts at one number and ends *before* the last number.
 
+
 # 2025-11-19
 - **For loops** exist to help handle the querying of extensive lists.
   - They're  used to say "for each value in a sequence, perform this action".
   
 - They can also be used with conditional statements to check each string in a list, or to loop through letters in a string to perform validation.
+
+
 # 2025-11-18
 
 ## Conditional statements and operators
@@ -50,6 +54,7 @@
 ingredients_needed = {"tomatoes": 900}`
 
 - This happened again when basil was added to the mix, this time I tried to update the basil in the two dictonaries before realizing I'd made another mistake and needed to just assign variables to move forward.
+
 
 # 2025-11-17:
 
