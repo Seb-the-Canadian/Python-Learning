@@ -1,3 +1,15 @@
+# 2025-11-22
+
+- Started learning about **while loops**
+- They're similar to **for loops**, but differ in that they'll *continue* to run while over and over again as long as the condition is true.
+- we use the `while` syntax followed by the [condition] and then a `:`, then, on the next line (indented) we write the action.
+- Used for any continuous task
+  - e.g. in a game, accelerate the car while `x` is being pressed.
+  
+- Although helpful, this can be potentially dangerous if the condition is one that can never be false, where the loop will continue forever.
+- This can be avoided using a couple of fixes:
+  - `break` - can also be used in **for loops** and can be used to only have the action happen once, or use additional lines of code to set the number of time an action is performed. 
+  - `Cmd-C` / `Windows-C` 
 
 # 2025-11-20
 - Continuing on **for loops** and also **ranges**
