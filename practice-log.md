@@ -1,4 +1,48 @@
+# 2025-11-24
+
+- Continuing with **while loops** & **complex variables**
+
+## Building complex workflows
+
+- So far we have the following functions
+
+  - Loops through data structures:
+    - `for`, `while`
+  - Evlauate multiple conditions:
+    - `if`, `elif`, `else`, `>` `>=`, `<`, `<=`, `==`, `!=`
+  - Update variables:
+    - `+=`
+  - Return outputs:
+    `print()`
+    
+- The "in" keyword
+  - `in` = check if a value is in a variable/data strucutre
+  - Let's us check for a particular value faster tha looping through every key
+  
+- The "not" keyword
+  - `not` = check if a condition **is not** met
+  - useful for validating that something is missing
+  
+- The "and" keyword
+  - `and` = check if **multiple conditions** are me
+  - use when multiple requirements must be met
+
+- The "or" keyword
+  - `or` = check if one (**or more**) condition is met
+  - use when any of several options are acceptable
+
+## Adding/subtracting from variables
+
+- Combine these **keywords** with other techniques to build **complex workflows**
+- Can use with `+=` (adds to a variable) and `-=` (subtracts from a variable)
+
+## Appending
+- Store information that meets specific criteria in a list, check if an item is on the list, and add it if not.
+- `.append`
+
 # 2025-11-22
+
+## While Loops
 
 - Started learning about **while loops**
 - They're similar to **for loops**, but differ in that they'll *continue* to run while over and over again as long as the condition is true.
@@ -12,6 +56,9 @@
   - `Cmd-C` / `Windows-C` 
 
 # 2025-11-20
+
+## For loops and ranges
+
 - Continuing on **for loops** and also **ranges**
 - These can be also used for looping through **dictionaries**
   - Can loop through just *keys* or just *values*
@@ -22,6 +69,9 @@
 
 
 # 2025-11-19
+
+## For loops
+
 - **For loops** exist to help handle the querying of extensive lists.
   - They're  used to say "for each value in a sequence, perform this action".
   
