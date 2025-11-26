@@ -1,3 +1,18 @@
+# 2025-11-25
+
+- Wrapped up course content from yesterday's DataCamp and started on the **Intermediate Python for Developers** course.
+
+## Built-in Functions
+
+- Built in functions help process data more easily. Doing complex tasks with less code.
+
+- `min()`: checks the lowest value
+- `max()`: checks the highest value 
+- `sum()`: check the sum of a list of vakues
+- `round()`: rounds to one decimal place
+- `len()`: counts the number of elements
+- `sorted()`: sorts a list in acending order (or a string alphabetically)
+
 # 2025-11-24
 
 - Continuing with **while loops** & **complex variables**
