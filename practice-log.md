@@ -1,3 +1,26 @@
+# 2025-11-26
+
+- Continued working on the first chapter of the new lessons.
+- Learned that `round()` can be combined in brackets with an integer to change the number of decimal places used, rather than the default of 1.
+
+## Modules
+- Modules are *Python scripts* that help us avoid rewriting code that already exists - there are ~200.
+  - files ending with `.py`
+  - contain *functions* and *attributes*
+  - can also contain *other modules*
+
+- `os`:
+  - Used for interacting with our operating system
+  - Check the current directory
+  - List available files
+  - Access environment variables
+  
+- `string`:
+  - provides predefined character sets that simplify comment text processing tasks.
+  
+- Modules must first be imported using the `import` keyword followed by the module name.
+- Once a module is imported, we can use the `help()` function to check the documentation and find out how to use it and what it contains.
+
 # 2025-11-25
 
 - Wrapped up course content from yesterday's DataCamp and started on the **Intermediate Python for Developers** course.
